@@ -1,0 +1,110 @@
+<?php 
+namespace gamut; 
+echo 
+    U_DOCTYPE.
+    U_HTML_OPEN.
+    U_HEAD_OPEN;
+?>
+
+
+        
+        <?php 
+            echo U_META; 
+        ?>
+        
+        
+        
+        
+        
+
+        <?php echo U_META_TITLE_OPEN . U_META_TITLE_NON_CMS; ?>                                                                                         
+    About -     <?php echo U_META_TITLE . U_META_TITLE_CLOSE; ?> 
+
+<?php echo U_HEAD; ?>  
+
+
+
+<?php 
+echo 
+    U_HEAD_CLOSE; 
+    flush(); 
+    echo U_BODY_OPEN;
+?>
+
+
+<?php 
+    echo 
+        U_SKIP_LINKS.
+        U_HEADER_OPEN; 
+?>
+
+
+
+<?php echo U_HEADER; ?>
+
+
+
+<?php 
+echo 
+    U_HEADER_CLOSE.
+    U_MAIN_OPEN.
+    U_CONTENT_OPEN.
+    U_NAV_BREADCRUMBS; 
+?>
+                                                                                                    
+        
+<?php echo U_CONTENT_TITLE_OPEN; ?>
+        About Vassar
+        <?php echo U_CONTENT_TITLE . U_CONTENT_TITLE_CLOSE; ?>
+    
+
+
+
+
+                            
+
+<p>Founded in 1861, Vassar College is a highly selective, residential, coeducational liberal arts college. Consistently ranked among the top liberal arts colleges in the country, Vassar is renowned for pioneering achievements in education, for its long history of curricular innovation, and for the beauty of its campus.</p>
+<h3>Our New President</h3>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. <a href="#">Read more</a></p>
+<h3>Mission</h3>
+<p>The mission of Vassar College is to make accessible &#8220;the means of a thorough, well-proportioned and liberal education&#8221;* that inspires each individual to lead a purposeful life. The College makes possible an education that promotes analytical, informed, and independent thinking and sound judgment; encourages articulate expression; and nurtures intellectual curiosity, creativity, respectful debate and engaged citizenship. Vassar supports a high standard of engagement in teaching and learning, scholarship and artistic endeavor; a broad and deep curriculum; and a residential campus that fosters a learning community. Founded in 1861 to provide women an education equal to that once available only to men, Vassar is now open to all and strives to pursue diversity, inclusion, and equity as essential components of a rich intellectual and cultural environment in which all members, including those from underrepresented and marginalized groups, are valued and empowered to thrive. * From the College&#8217;s First Annual Catalogue</p>
+<h3>History</h3>
+<p>A pioneer for women&#8217;s education and liberal arts education in the United States, Matthew Vassar founded Vassar College in 1861. Opening its doors to its first class of 353 students paying $350 for tuition and &#8220;residence&#8221; on September 26, 1865, the college offered young women a liberal arts education equal to that of the best men&#8217;s colleges of the day. Coeducational since 1969, Vassar College set the standard for higher education for women for more than 100 years and now sets the standard for true coeducation. Recognized as one of the best liberal arts colleges in the country, Vassar has successfully fulfilled its founder&#8217;s goals.</p>
+<h3>Facts &amp; Stats</h3>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.&#160;<a href="#">Read more</a></p>
+
+<?php echo CMS_PAGE_CONTENT; ?>
+
+
+            
+
+<?php 
+echo 
+    U_CONTENT_CLOSE.
+    U_ASIDE_OPEN; ?>
+
+
+
+
+
+
+<?php echo U_ASIDE; ?>
+
+
+<?php if(!IS_NEWS_INNER){@include("sidebar.html");}?>
+
+
+
+        <?php echo 
+            U_ASIDE_CLOSE .
+            U_MAIN_CLOSE .
+            U_SEARCH .
+            U_NAV .
+            U_FOOTER_OPEN.
+            U_VCARD.
+            U_FOOTER_CLOSE.
+            U_JS_LOCAL.
+            U_BODY_CLOSE.
+            U_HTML_CLOSE;
+        ?>
+        
